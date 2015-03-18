@@ -1,0 +1,33 @@
+{
+  "name": "PermissionTester",
+  "description": "Permission Tester",
+  "launch_path": "/index.html",
+  "orientation": "portrait",
+  "type": "privileged",
+  "developer": {
+    "name": "Borja Salguero",
+    "url": "https://github.com/firefoxosedu"
+  },
+  "locales": {
+    "es": {
+      "name": "Tester de Permisos",
+      "description": "Aplicación básica en FirefoxOS"
+    },
+    "en-US": {
+      "name": "Permission Tester",
+      "description": "FirefoxOS Basic app"
+    }
+  },
+  "permissions": {
+    "geolocation":{},
+    "storage":{},
+    "device-storage:pictures":{ "access": "readwrite" },
+    "device-storage:sdcard":{ "access": "readwrite" },
+    "camera":{}
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "128": "/icons/128.jpg",
+    "60": "/icons/60.jpg"
+  }
+}
